@@ -1,2 +1,47 @@
-nav { background: #333; padding: 10px; }
-nav a { color: white; text-decoration: none; margin: 0 10px; }
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenu principal */
+.content {
+    padding: 20px;
+    min-height: calc(100vh - 60px); /* Pour que le contenu occupe tout l'espace sauf le pied de page */
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px;
+}
